@@ -6,10 +6,10 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
+- Họ tên: Đàm Hồng Thái
+- MSSV: 2A202603927
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
+- Tên nhóm: E305t108
 - Link repo nhóm:
 
 ---
