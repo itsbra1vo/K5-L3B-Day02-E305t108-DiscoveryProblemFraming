@@ -20,7 +20,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | | | | |
+| 1 |Khi có nhiều thông báo về bài tập, hạn nộp và lịch thi, tôi muốn tổng hợp các thông tin quan trọng, để không bỏ lỡ những công việc cần thực hiện. | | | |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
