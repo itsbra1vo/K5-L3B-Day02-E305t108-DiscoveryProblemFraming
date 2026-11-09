@@ -4,18 +4,16 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
-- Quyết định cuối (Go / Not Yet / No-Go):
+- Tên nhóm: **E305t108**
+- Candidate problem nhóm chọn (1 câu): **Khi cần thực hiện thủ tục hành chính hoặc giải quyết vướng mắc học vụ tại trường, sinh viên gặp khó khăn khi tra cứu quy định rải rác và biểu mẫu phức tạp, dẫn đến tốn thời gian đi lại nhiều lần và làm quá tải cán bộ phòng ban.**
+- Quyết định cuối (Go / Not Yet / No-Go): **Go, phạm vi nhỏ** (Pilot trên 5 thủ tục hành chính có tần suất phát sinh cao nhất).
 
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | Đàm Hồng Thái | 2A202603927 | Trưởng nhóm: Điều phối chung, phụ trách Research & chốt Problem Statement | `itsbra1vo` |
+| 2 | Lê Quý Toàn | 2A202603941 | Thành viên: Phụ trách Kiểm chứng (Mom Test, khảo sát), thiết kế quy trình Before/After, phản biện kiến trúc AI | `ToanLee5433` |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -25,13 +23,13 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
-| CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
-| CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
-| CP5 — Problem Statement v0 | | | Problem Statement v0 |
-| CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
-| CP6 — Quyết định | | | 4 rủi ro + Go/Not Yet/No-Go |
+| CP3 — Hội tụ nhóm | Đàm Hồng Thái | Lê Quý Toàn | Cluster, cây OST, bảng chấm điểm shortlist |
+| CP4 — Kiểm chứng | Lê Quý Toàn | Đàm Hồng Thái | Assumption map, 3 Mom Test snapshots, khảo sát 12 SV |
+| CP4 — Research | Đàm Hồng Thái | Lê Quý Toàn | Bảng research đối thủ có link thực tế (HUST Bot, MyBK, VinUni) |
+| CP5 — Quy trình trước/sau | Lê Quý Toàn | Đàm Hồng Thái | Sơ đồ quy trình Before/After + bảng đối chiếu + phương án fallback |
+| CP5 — Problem Statement v0 | Đàm Hồng Thái | Lê Quý Toàn | Problem Statement v0 (6 trường) |
+| CP6 — Mức can thiệp + Problem Statement v1 | Lê Quý Toàn | Đàm Hồng Thái | Ma trận độ mơ hồ/phức tạp, AI Canvas, eval, Problem Statement v1 |
+| CP6 — Quyết định | Đàm Hồng Thái | Lê Quý Toàn | Đánh giá 4 rủi ro + Quyết định Go Pilot + 3 ngưỡng dừng |
 
 ## Cá nhân
 
