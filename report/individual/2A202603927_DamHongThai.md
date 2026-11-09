@@ -8,7 +8,7 @@ Dưới đây là file báo cáo cá nhân hoàn chỉnh cho bạn **Đàm Hồn
 
 - Họ tên: Đàm Hồng Thái
 - MSSV: 2A202603927
-- Email trường (không bắt buộc, repo có thể để public): damhongthai@… (điền email trường)
+- Email trường (không bắt buộc, repo có thể để public):
 - Tên nhóm: Nhóm 1
 - Link repo nhóm: (điền link repo)
 
