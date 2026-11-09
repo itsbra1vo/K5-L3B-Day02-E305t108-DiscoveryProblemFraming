@@ -5,7 +5,7 @@
 - Họ tên: Đàm Hồng Thái
 - MSSV: 2A202603927
 - Tên nhóm: Nhóm E305t108
-- Link repo nhóm: (điền link repo) :
+- Link repo nhóm: (điền link repo) : https://github.com/itsbra1vo/K5-L3B-Day02-E305t108-DiscoveryProblemFraming
 
 ---
 
