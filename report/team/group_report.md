@@ -18,28 +18,34 @@
 
 ### 2.1. Pitch
 
-Nhóm gồm 2 thành viên tiến hành pitch **6 candidate** tiêu biểu (mỗi thành viên chuẩn bị 3 Problem Cards từ CP2):
+Nhóm gồm 2 thành viên tiến hành pitch **12 candidate** tiêu biểu được tổng hợp từ ngân hàng Job Stories ban đầu của cả 2 thành viên (6 của Đàm Hồng Thái và 6 của Lê Quý Toàn):
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | Lê Quý Toàn | Khi nhận đánh giá sao thấp đa kênh, CSKH muốn phân loại lỗi tự động để xử lý nhanh | CSKH, Quản lý chuỗi F&B | Đọc và gán tag thủ công 45'/ngày | *"Đề tài F&B này lấy đâu ra dữ liệu review thật để test trong buổi lab 3 tiếng, và liệu có phỏng vấn được quản lý nhà hàng ngay bây giờ không?"* (Đàm Hồng Thái hỏi) |
-| 2 | Lê Quý Toàn | Khi làm thủ tục hành chính trường, SV muốn có hướng dẫn đủ và chuẩn để không phải đi lại nhiều lần | Sinh viên, Cán bộ đào tạo/CTSV | Đọc dò văn bản quy chế dài 20–30 trang và hỏi qua lại (45–60') | *"Lần gần nhất bạn làm thủ tục giấy tờ ở trường mất bao lâu? Sinh viên hay bị mắc kẹt nhất ở khâu nào?"* (Đàm Hồng Thái hỏi) |
-| 3 | Lê Quý Toàn | Khi khách khiếu nại đơn hàng giao lỗi/thiếu món, CSKH muốn đối chiếu ảnh đóng gói để ra quyết định hoàn tiền trong 10' | CSKH, Thủ kho/Bếp | Tìm ảnh camera đóng gói và đối chiếu xác minh (25'/ticket) | *"Quy trình này phụ thuộc camera kho và shipper, liệu có vượt quá phạm vi lab không?"* (Đàm Hồng Thái hỏi) |
-| 4 | Đàm Hồng Thái | Khi có nhiều thông báo bài tập, hạn nộp và lịch thi, SV muốn tổng hợp thông tin quan trọng để không trễ hạn | Sinh viên, Lớp trưởng, Giảng viên | Lọc thông báo từ Zalo, Teams, LMS, Canvas (15–20'/ngày) | *"Mỗi môn dùng một kênh khác nhau (Zalo, Teams, LMS), làm sao lấy dữ liệu tập trung mà không vi phạm phân quyền API?"* (Lê Quý Toàn hỏi) |
-| 5 | Đàm Hồng Thái | Khi xem lịch học, lịch thi hoặc phòng học, SV muốn tra cứu tại một nơi để không phải tìm kiếm nhiều lần | Sinh viên, Cán bộ lớp | Mở portal, group lớp, email tìm phòng học (5–10'/lần) | *"Portal trường đã có sẵn lịch học và lịch thi, nếu làm thêm giải pháp AI thì có bị trùng lặp tính năng và lãng phí không?"* (Lê Quý Toàn hỏi) |
-| 6 | Đàm Hồng Thái | Khi đến kỳ đăng ký học phần, SV muốn biết môn học phù hợp lộ trình để đăng ký đúng tiến độ và tránh trùng lịch | Sinh viên, Cố vấn học tập | Đối chiếu cây điều kiện tiên quyết và tính tín chỉ (2–3 tiếng) | *"Sinh viên kẹt môn chủ yếu do hết slot hay do không hiểu quy chế? Nếu do hết slot thì AI có giải quyết được nghẽn hạ tầng server không?"* (Lê Quý Toàn hỏi) |
+| 1 | Đàm Hồng Thái | Khi cần xem lịch học/lịch thi/phòng học, tôi muốn tra cứu tại một nơi để không phải tìm nhiều kênh | SV, lớp trưởng | Mở portal, group lớp, email tìm phòng học (5–10'/lần) | *"Portal trường đã có sẵn lịch học và lịch thi, nếu làm thêm giải pháp AI thì có bị trùng lặp tính năng và lãng phí không?"* (Lê Quý Toàn hỏi) |
+| 2 | Đàm Hồng Thái | Khi tìm hiểu học bổng hoặc điều kiện tốt nghiệp, tôi muốn tổng hợp điều kiện/hồ sơ từ nhiều nguồn | SV, phòng CTSV, phòng đào tạo | Đọc và đối chiếu văn bản rải rác (40–60'/lần) | *"Tần suất làm học bổng chỉ 2–3 lần/năm, liệu có đo lường được hiệu quả trong một buổi lab không?"* (Lê Quý Toàn hỏi) |
+| 3 | Đàm Hồng Thái | Khi các bạn trong lớp liên tục hỏi lịch thi/hạn nộp, tôi muốn có nguồn chung để chia sẻ giảm trả lời lặp lại | Lớp trưởng, cán bộ lớp | Tìm lại thông báo cũ trên Zalo (15–25'/tuần) | *"Đây là pain của người trả lời hay người hỏi? Lớp trưởng ghim thông báo Zalo là xong, cần gì giải pháp phức tạp?"* (Lê Quý Toàn hỏi) |
+| 4 | Đàm Hồng Thái | Khi cần làm thủ tục hành chính trường, tôi muốn có hướng dẫn đủ và chuẩn để không phải đi lại nhiều lần | SV, cán bộ một cửa | Đọc dò văn bản quy chế dài 20–30 trang (45–60'/lần) | *"Sinh viên có thật sự chịu đọc hết văn bản quy chế không hay chỉ cần biết chính xác giấy tờ cần nộp?"* (Lê Quý Toàn hỏi) |
+| 5 | Lê Quý Toàn | Khi nhận đánh giá sao thấp đa kênh, CSKH muốn phân loại lỗi tự động để xử lý nhanh trong 30' | CSKH, Quản lý chuỗi F&B | Đọc và gắn tag thủ công (45–60'/sáng) | *"Đề tài F&B này lấy đâu ra dữ liệu review thật để test trong lab 3 tiếng, và liệu có phỏng vấn được quản lý nhà hàng ngay bây giờ không?"* (Đàm Hồng Thái hỏi) |
+| 6 | Lê Quý Toàn | Khi đến giờ giao ca trực, tôi muốn có danh sách sự cố vận hành phát sinh để bàn giao ca sau liền mạch | Trưởng ca (Shift Leader) | Gõ biên bản bàn giao và nhắc việc (20–30'/lần) | *"Trưởng ca có chịu ghi chép đầy đủ vào phần mềm không hay chỉ trao đổi miệng là xong?"* (Đàm Hồng Thái hỏi) |
+| 7 | Lê Quý Toàn | Khi khách khiếu nại đơn hàng giao lỗi/thiếu món, CSKH muốn đối chiếu ảnh đóng gói để ra quyết định hoàn tiền trong 10' | CSKH, Thủ kho/Bếp | Tìm ảnh camera đóng gói và đối chiếu (25'/ticket) | *"Quy trình này phụ thuộc camera kho và shipper ngoài đường, liệu có vượt quá phạm vi buổi lab không?"* (Đàm Hồng Thái hỏi) |
+| 8 | Lê Quý Toàn | Khi cần xin giấy xác nhận sinh viên / hoãn thi, tôi muốn biết chính xác hồ sơ cần gì để không bị cán bộ trả về | SV, Cán bộ đào tạo/CTSV | Đi lại 2–3 lần vì thiếu chứng từ hợp lệ (mất 2–3 ngày) | *"Lần gần nhất bạn làm thủ tục ở trường mất bao lâu? Sinh viên hay bị mắc kẹt nhất ở khâu nào?"* (Đàm Hồng Thái hỏi) |
+| 9 | Đàm Hồng Thái | Khi gặp khó khăn học tập/cá nhân, tôi muốn biết nên liên hệ ai để được hỗ trợ kịp thời | SV gặp khó khăn, Cố vấn | Tìm đầu mối phụ trách rải rác (20–40') | *"Vấn đề này có cần AI xử lý không hay chỉ cần một trang danh bạ điện tử rõ ràng?"* (Lê Quý Toàn hỏi) |
+| 10 | Lê Quý Toàn | Khi nhân viên mới vào ca trực, họ muốn biết chính sách đền bù chuẩn để phản hồi khách ngay | Nhân viên CSKH thử việc | Nhắn tin hỏi lặp lại trên Zalo (40'/ngày) | *"Đã có sẵn cẩm nang SOP nội bộ rồi, tại sao không cải thiện tài liệu đào tạo thay vì dùng AI?"* (Đàm Hồng Thái hỏi) |
+| 11 | Đàm Hồng Thái | Khi gặp khó khăn làm bài tập/đồ án, tôi muốn tìm hướng giải quyết và tài liệu phù hợp để hoàn thành đúng hạn | SV, GV hướng dẫn | Tìm kiếm tài liệu tin cậy (20–60'/lần) | *"Tài liệu chuyên ngành rất phân tán và mang tính bảo mật, AI có giải quyết được không?"* (Lê Quý Toàn hỏi) |
+| 12 | Lê Quý Toàn | Khi đối soát voucher đền bù cuối tháng, tôi muốn khớp số tiền với lý do khiếu nại để giám đốc phê duyệt | Trưởng CSKH, Kế toán | Đối chiếu thủ công giữa Excel và Fanpage (6–7 tiếng) | *"Có cần AI hay chỉ cần chuẩn hóa quy tắc nghiệp vụ trên phần mềm POS?"* (Đàm Hồng Thái hỏi) |
 
 ---
 
 ### 2.2. Cluster
 
-Nhóm phân loại 6 candidate thành 3 cụm vấn đề (Cluster) dựa trên bản chất nghiệp vụ:
+Nhóm phân loại 12 candidate thành 3 cụm vấn đề (Cluster) dựa trên bản chất nghiệp vụ:
 
 | Cluster | Các candidate thuộc nhóm | Pattern chung |
 |---|---|---|
-| **Cluster A: Tra cứu & Tổng hợp Lịch học, Thông báo** | Candidate #4, #5 | Dữ liệu mang tính thời điểm, thay đổi theo tuần, phần lớn portal trường hoặc kênh chat lớp đã có sẵn nhưng bị phân mảnh. |
-| **Cluster B: Hướng dẫn Quy định & Thủ tục Hành chính** | Candidate #2 | Văn bản quy chế dài, biểu mẫu phân tán nhiều phòng ban, sinh viên rất sợ làm sai; cán bộ hành chính bị hỏi lặp lại gây quá tải. |
-| **Cluster C: Nghiệp vụ Vận hành & Đăng ký Học phần** | Candidate #1, #3, #6 | Phụ thuộc vào dữ liệu vận hành bên thứ ba (POS/camera đơn hàng) hoặc nghẽn hạ tầng kỹ thuật (server trường hết slot lớp học). |
+| **Cluster A: Tra cứu & Tổng hợp Lịch học, Thông báo** | Candidate #1, #2, #3, #9 | Dữ liệu mang tính thời điểm, thay đổi theo tuần/kỳ, phần lớn portal trường hoặc kênh chat lớp đã có sẵn nhưng bị phân mảnh; tần suất một số bài thấp (học bổng 2 lần/năm). |
+| **Cluster B: Hướng dẫn Quy định & Thủ tục Hành chính** | Candidate #4, #8 | Văn bản quy chế dài (20–50 trang), biểu mẫu phân tán nhiều phòng ban, ngôn ngữ pháp lý khó hiểu; sinh viên rất sợ làm sai; cán bộ hành chính bị hỏi lặp lại gây quá tải nghiêm trọng. |
+| **Cluster C: Nghiệp vụ Vận hành Doanh nghiệp & Học tập P2P** | Candidate #5, #6, #7, #10, #11, #12 | Phụ thuộc vào dữ liệu vận hành bên thứ ba (POS/camera đơn hàng F&B) hoặc rào cản kiểm chứng thực địa không thể làm xong trong buổi lab 3 tiếng. |
 
 ---
 
@@ -56,11 +62,13 @@ OUTCOME: Giảm 60% thời gian sinh viên tra cứu & hoàn thiện hồ sơ th
      ✗ "Chatbot AI toàn năng giải đáp mọi thắc mắc"  ← SOLUTION, gạch bỏ khỏi tầng này
      ✗ "Xây dựng cổng portal một cửa mới"           ← SOLUTION, gạch bỏ khỏi tầng này
      ✗ "Sổ tay sinh viên điện tử"                   ← SOLUTION, gạch bỏ khỏi tầng này
+     ✗ "Dùng ChatGPT giải đáp quy chế"              ← SOLUTION, gạch bỏ khỏi tầng này
 ```
 
 *Những ý đã gạch bỏ vì là solution đội lốt opportunity:*
 - "Chatbot AI trả lời tự động": Đây là giải pháp công nghệ, không phải nỗi đau của sinh viên.
 - "Cổng portal tích hợp": Đây là tính năng phần mềm lớn vượt ngoài phạm vi giải quyết vấn đề.
+- "Dùng ChatGPT": Công cụ cụ thể có nguy cơ hallucination cao, không phải nhu cầu người dùng.
 
 ---
 
@@ -70,9 +78,9 @@ Nhóm rút gọn 3 candidate đại diện cho 3 cluster để chấm điểm th
 
 | Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Candidate 1: Hướng dẫn thủ tục hành chính & quy chế (#2)** | 5 | 5 | 5 | 5 | 5 | 5 | 5 | **35** |
-| Candidate 2: Tổng hợp thông báo bài tập & lịch thi (#4) | 5 | 4 | 4 | 3 | 4 | 4 | 5 | 29 |
-| Candidate 3: Lựa chọn & Đăng ký học phần theo lộ trình (#6) | 4 | 4 | 4 | 4 | 3 | 4 | 4 | 27 |
+| **Candidate 1: Hướng dẫn thủ tục hành chính sinh viên (#4, #8)** | 5 | 5 | 5 | 5 | 5 | 5 | 5 | **35** |
+| Candidate 2: Tra cứu lịch học, phòng học & lịch thi (#1) | 5 | 5 | 4 | 4 | 4 | 5 | 4 | 31 |
+| Candidate 3: Gom & phân loại review F&B đa kênh (#5) | 5 | 5 | 4 | 5 | 2 | 5 | 3 | 29 |
 
 **Candidate được chọn:** **Candidate 1 — Hướng dẫn & Tra cứu Thủ tục Hành chính, Quy chế Sinh viên tại Trường Đại học.**
 
@@ -81,12 +89,13 @@ Nhóm rút gọn 3 candidate đại diện cho 3 cluster để chấm điểm th
 2. *Pain thật, bằng chứng rõ ràng:* Cả 2 thành viên đều từng đi lại 2–3 lần vì thiếu giấy tờ xác nhận; cán bộ một cửa luôn trong tình trạng quá tải vào các đợt cao điểm đầu kỳ và trước kỳ thi.
 3. *Đầu vào dữ liệu có sẵn và chuẩn xác:* Toàn bộ quy chế, biểu mẫu, quy trình một cửa của trường đã có sẵn trên văn bản PDF chính thức (Sổ tay sinh viên, Quyết định quy chế đào tạo).
 4. *So sánh rõ ràng 4 mức giải pháp:* Có đất để phân định rạch ròi giữa việc dùng bảng FAQ tĩnh (No AI), chatbot cây quyết định (Rule), Workflow RAG trích xuất thông tin có trích dẫn, và chứng minh vì sao không được dùng Autonomous Agent.
+5. *Vừa sức buổi lab:* 100% thành viên đều hiểu domain, dễ dàng phỏng vấn người thật ngay tại chỗ.
 
 **Vì sao loại các candidate còn lại:**
-- *Loại Candidate 2 (Thông báo bài tập/lịch học):* Dữ liệu phân mảnh trên nhiều ứng dụng bảo mật của giảng viên (Zalo kín, Teams, LMS cá nhân); việc cào dữ liệu gặp rào cản phân quyền nghiêm trọng. Hơn nữa, trường đã có portal sinh viên hiển thị lịch tự động.
-- *Loại Candidate 3 (Đăng ký học phần):* Vấn đề nghẽn lớn nhất của sinh viên khi đăng ký học phần thực chất là **hệ thống server bị nghẽn (quá tải băng thông)** và **hết slot lớp học**, chứ không phải do sinh viên không biết chọn môn. AI không giải quyết được vấn đề cơ sở hạ tầng mạng của nhà trường.
+- *Loại Candidate 2 (Lịch học/phòng học):* Hầu hết các trường đại học đã có app hoặc portal sinh viên hiển thị lịch tự động. Vấn đề chỉ là giao diện chưa đẹp; việc dùng AI vào đây là lãng phí tài nguyên và không có bài toán ngôn ngữ tự nhiên. Phụ thuộc API Zalo/Teams khó kiểm soát trong lab.
+- *Loại Candidate 3 (Gom review F&B):* Mặc dù impact thương mại lớn nhưng gặp rào cản nghiêm trọng về kiểm chứng thực địa trong một buổi lab 3 tiếng (không có sẵn dữ liệu review thực tế và không thể phỏng vấn ngay 20 quản lý nhà hàng F&B tại lớp).
 
-**Xử lý bất đồng:** Ban đầu Toàn muốn pitch đề tài F&B (phân loại review), còn Thái muốn tập trung vào bài toán thông báo học tập (#4). Tuy nhiên, sau khi Thái phản biện về rào cản kiểm chứng người thật của đề tài F&B trong buổi lab 3 tiếng, và Toàn phản biện về rào cản phân quyền API của các kênh Zalo/Teams, cả 2 bạn đã cùng thống nhất chuyển sang **Candidate #2 (Thủ tục hành chính sinh viên)** vì cả 2 đều là sinh viên, hiểu sâu domain, có sẵn văn bản quy chế trường và có thể phỏng vấn người thật ngay tại lớp.
+**Xử lý bất đồng:** Ban đầu Lê Quý Toàn muốn bảo vệ đề tài F&B (phân loại review), còn Đàm Hồng Thái muốn tập trung vào bài toán thông tin học vụ. Sau khi Thái phản biện về rào cản kiểm chứng người thật của đề tài F&B trong buổi lab 3 tiếng, và Toàn phản biện về rào cản phân quyền API của các kênh Zalo/Teams, cả hai bạn đã cùng thống nhất chuyển sang **Candidate 1 (Thủ tục hành chính sinh viên)** vì cả hai đều là sinh viên, hiểu sâu domain, có sẵn văn bản quy chế trường và có thể phỏng vấn người thật ngay tại lớp. Đồng thuận 100%, không có bất đồng kéo dài.
 
 ---
 
@@ -337,14 +346,34 @@ flowchart TD
 | **AI intervention point** | Chưa xác định cụ thể | Nằm ở bước tư vấn trước khi tải form | Làm rõ chính xác AI chen vào bước nghẽn nào trong quy trình |
 | **Rủi ro & Kiểm soát** | Chỉ nêu ranh giới cấm AI duyệt đơn | Bổ sung cơ chế bắt buộc trích dẫn số hiệu điều khoản và kiểm duyệt kho văn bản | Đảm bảo tính pháp lý và khả năng đối chiếu ngược của sinh viên |
 
-### Tiêu chí đánh giá đầu ra của AI (4 tiêu chí):
+### Tiêu chí đánh giá đầu ra của AI (5 tiêu chí):
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | **Đúng quy chế & Có trích dẫn** | Nêu chính xác tên thủ tục và trích dẫn đúng số hiệu điều khoản trong Quyết định quy chế hiện hành của trường | Trích dẫn sai điều khoản, lấy quy chế của trường khác, hoặc không dẫn nguồn |
-| 2 | **Đầy đủ danh mục giấy tờ (High Recall)** | Liệt kê đủ 100% các giấy tờ bắt buộc theo quy định cho trường hợp cụ thể của sinh viên | Bỏ sót dù chỉ 1 loại giấy tờ/chữ ký bắt buộc |
-| 3 | **Đúng link biểu mẫu mới nhất** | Cung cấp link tải trực tiếp biểu mẫu có hiệu lực năm học hiện tại | Đưa link chết (404), link biểu mẫu cũ chưa cập nhật, hoặc không có file đính kèm |
-| 4 | **Cảnh báo điều kiện tiên quyết rõ ràng** | Nêu rõ các mốc thời gian hạn chót (deadlines) và điều kiện loại trừ (ví dụ: đơn hoãn thi phải nộp trong 48h sau thi) | Không nhắc nhở về thời hạn nộp hoặc điều kiện tiên quyết |
+| 1 | **Đúng quy chế & Có trích dẫn (Citation Accuracy $\ge 95\%$)** | Nêu chính xác tên thủ tục và trích dẫn đúng số hiệu điều khoản trong Quyết định quy chế đào tạo/CTSV hiện hành của trường | Trích dẫn sai điều khoản, lấy quy chế trường khác, hoặc không dẫn nguồn (Hallucination) |
+| 2 | **Đầy đủ danh mục giấy tờ (High Recall $\ge 0.95$)** | Liệt kê đủ 100% các giấy tờ bắt buộc theo quy định cho trường hợp cụ thể của sinh viên (không được bỏ sót) | Bỏ sót dù chỉ 1 loại giấy tờ hoặc con dấu/chữ ký bắt buộc |
+| 3 | **Đúng link biểu mẫu mới nhất (Form URL Accuracy = 100%)** | Cung cấp link tải trực tiếp biểu mẫu phiên bản mới nhất năm học hiện tại | Đưa link chết (404), link mẫu cũ chưa cập nhật, hoặc không có file đính kèm |
+| 4 | **Cảnh báo điều kiện tiên quyết & Hạn chót** | Nêu rõ các mốc thời gian hạn chót (deadlines) và điều kiện loại trừ (ví dụ: đơn hoãn thi phải nộp trong 48h sau thi) | Không nhắc nhở về thời hạn nộp hoặc điều kiện tiên quyết |
+| 5 | **Định tuyến Fallback chuẩn xác** | Nhận diện đúng các câu hỏi ngoài phạm vi hoặc trường hợp đặc biệt ngoài quy chế để chuyển tiếp hotline/bàn một cửa | Cố trả lời bịa đặt khi tài liệu không có thông tin hoặc tự tin thấp |
+
+---
+
+### 7.4. Bộ Eval mẫu 10 cặp Input / Output thử nghiệm (Đạt chuẩn Bonus B3)
+
+Dưới đây là bộ 10 test case đa dạng thử nghiệm bước Workflow AI tương ứng với 5 thủ tục cốt lõi và các tình huống biên/ngoại lệ:
+
+| # | Input của Sinh viên | Đầu ra mong đợi của AI (Checklist, Link mẫu & Cảnh báo) | Tiêu chí Eval đạt |
+|---:|---|---|---|
+| 1 | *"Em bị sốt xuất huyết phải nằm viện đúng hôm thi môn Giải tích 2, em cần làm gì để được thi bù ạ?"* | • Tên thủ tục: **Hoãn thi vì lý do bất khả kháng** (Điều 15 Quy chế Đào tạo).<br>• Checklist giấy tờ: (1) Đơn xin hoãn thi theo mẫu; (2) Giấy ra viện hoặc xác nhận điều trị nội trú có dấu tròn bệnh viện cấp quận/huyện trở lên.<br>• Link biểu mẫu: `https://dt.edu.vn/bieumau/BM-HT-2026.docx`<br>• Cảnh báo hạn chót: Phải nộp trong vòng **48 giờ** kể từ giờ thi. | Đạt Tiêu chí 1, 2, 3, 4 |
+| 2 | *"Em muốn xin giấy xác nhận sinh viên để về quê làm hồ sơ vay vốn Ngân hàng Chính sách Xã hội kỳ này."* | • Tên thủ tục: **Cấp Giấy xác nhận sinh viên vay vốn tín dụng**.<br>• Checklist: (1) Đơn xin xác nhận theo mẫu Ngân hàng CSXH (Mẫu 01/TDSV); (2) Bản photo CCCD gắn chip.<br>• Link biểu mẫu: `https://ctsv.edu.vn/bieumau/BM-VayVon-2026.docx`<br>• Nơi nộp & thời gian: Bàn 2 Phòng CTSV; nhận kết quả sau 24h làm việc. | Đạt Tiêu chí 1, 2, 3 |
+| 3 | *"Em muốn xin nghỉ học tạm thời 1 học kỳ vì việc gia đình thì cần làm những gì?"* | • Tên thủ tục: **Nghỉ học tạm thời (Bảo lưu kết quả học tập)** (Điều 18 Quy chế Đào tạo).<br>• Điều kiện: Đã học ít nhất 1 học kỳ tại trường và không thuộc diện bị buộc thôi học.<br>• Checklist: (1) Đơn xin nghỉ học tạm thời có ý kiến đồng ý của phụ huynh; (2) Bản xác nhận hoàn tất nghĩa vụ học phí và thư viện.<br>• Link biểu mẫu: `https://dt.edu.vn/bieumau/BM-BaoLuu-2026.docx` | Đạt Tiêu chí 1, 2, 3, 4 |
+| 4 | *"Bố em là thương binh hạng 3/4, em muốn làm hồ sơ miễn giảm học phí thì cần giấy tờ gì nộp ở đâu?"* | • Tên thủ tục: **Miễn giảm học phí đối tượng chính sách** (Nghị định 81/CP).<br>• Checklist: (1) Đơn đề nghị miễn giảm học phí theo mẫu; (2) Bản sao công chứng Thẻ thương binh của bố; (3) Giấy khai sinh công chứng.<br>• Link biểu mẫu: `https://ctsv.edu.vn/bieumau/BM-MGHP-2026.docx`<br>• Hạn chót: Nộp trước ngày 15 của tháng đầu tiên trong học kỳ. | Đạt Tiêu chí 1, 2, 3, 4 |
+| 5 | *"Em có bằng IELTS 6.5 thi tháng 8/2026, muốn nộp để miễn học và công nhận chuẩn đầu ra tiếng Anh."* | • Tên thủ tục: **Quy đổi điểm và miễn học phần Tiếng Anh chuẩn đầu ra**.<br>• Checklist: (1) Đơn đề nghị quy đổi điểm chứng chỉ quốc tế; (2) Bản gốc chứng chỉ IELTS để đối chiếu; (3) Bản photo chứng chỉ IELTS công chứng.<br>• Link biểu mẫu: `https://dt.edu.vn/bieumau/BM-QuyDoiTA-2026.docx`<br>• Cảnh báo: Chứng chỉ phải còn hạn 2 năm tính đến ngày nộp đơn. | Đạt Tiêu chí 1, 2, 3, 4 |
+| 6 | *"Em bị ốm thi xong từ tuần trước rồi, nay mới đỡ thì có làm đơn xin hoãn thi môn đó được không?"* | • Phản hồi: **Từ chối theo quy định**.<br>• Trích dẫn: Căn cứ Khoản 3 Điều 15 Quy chế Đào tạo, đơn hoãn thi chỉ được giải quyết khi nộp trong vòng 48 giờ sau buổi thi.<br>• Hướng dẫn: Đề nghị sinh viên liên hệ trực tiếp Cố vấn học tập hoặc Thầy phụ trách đào tạo Khoa để được tư vấn hướng học lại/thi lại học phần. | Đạt Tiêu chí 1, 4, 5 (Cảnh báo loại trừ) |
+| 7 | *"Em là sinh viên năm nhất mới nhập học được 2 tuần, em muốn bảo lưu 1 năm để đi làm có được không?"* | • Phản hồi: **Không đủ điều kiện**.<br>• Trích dẫn: Căn cứ Khoản 1 Điều 18, sinh viên chỉ được xin nghỉ học tạm thời sau khi đã hoàn thành ít nhất 1 học kỳ chính khóa (trừ trường hợp thực hiện NVQS hoặc bệnh nặng có chỉ định điều trị dài ngày).<br>• Hướng dẫn: Nếu vì lý do sức khỏe cấp bách, cần nộp bệnh án điều trị nội trú để Hội đồng xét duyệt ngoại lệ. | Đạt Tiêu chí 1, 2, 4 |
+| 8 | *"Em cần xin giấy xác nhận sinh viên để nộp hồ sơ xin tạm hoãn nghĩa vụ quân sự ở địa phương."* | • Tên thủ tục: **Cấp Giấy xác nhận tạm hoãn Nghĩa vụ Quân sự**.<br>• Checklist: (1) Giấy đăng ký nghĩa vụ quân sự / Lệnh gọi khám sức khỏe của Ban chỉ huy quân sự địa phương (bản photo); (2) Đơn đề nghị cấp giấy xác nhận.<br>• Link biểu mẫu: `https://ctsv.edu.vn/bieumau/BM-NVQS-2026.docx`<br>• Địa điểm: Bàn 1 Phòng CTSV (cấp trong ngày). | Đạt Tiêu chí 1, 2, 3 |
+| 9 | *"Quanh cổng trường có quán cơm nào ngon bổ rẻ không bot?"* | • Phản hồi: **Thông báo câu hỏi ngoài phạm vi chuyên môn**.<br>• Trả lời: *"Hệ thống chỉ hỗ trợ giải đáp quy chế và hướng dẫn thủ tục hành chính học vụ sinh viên. Bạn vui lòng tham khảo các hội nhóm sinh viên của trường để biết thông tin đời sống."* | Đạt Tiêu chí 5 (Fallback đúng) |
+| 10 | *"Thủ tục xin cấp lại mật khẩu tài khoản học trực tuyến LMS bị khóa."* | • Nhận diện: **Thủ tục kỹ thuật tài khoản** (ngoài phạm vi quy chế văn bản).<br>• Chuyển tiếp (Fallback): *"Vấn đề tài khoản LMS do Trung tâm Quản trị Mạng phụ trách. Vui lòng gửi email từ email sinh viên về `hotro.lms@edu.vn` hoặc liên hệ hotline `024.3868.xxxx` để được cấp lại mật khẩu."* | Đạt Tiêu chí 5 (Fallback chuẩn) |
 
 ---
 
@@ -354,10 +383,10 @@ flowchart TD
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn) | Lý do / Bằng chứng |
 |---|---|:---:|---|
-| **Value (Giá trị)** | Sinh viên và nhà trường có thật sự cần và dùng không? | **Thấp** | 100% sinh viên được hỏi đều từng gặp khó khăn khi làm thủ tục; cán bộ một cửa cực kỳ mong muốn giảm tải việc hỏi lặp lại. |
-| **Usability (Khả dụng)** | Sinh viên có dùng được và hiểu được câu trả lời của AI không? | **Thấp** | Giao diện hỏi đáp ngôn ngữ tự nhiên cực kỳ dễ tiếp cận; đầu ra là bảng Checklist giấy tờ ngắn gọn, rõ ràng hơn đọc văn bản PDF. |
-| **Feasibility (Khả thi kỹ thuật)** | Có đủ dữ liệu, công cụ và kỹ năng để làm không? | **Thấp – TB** | Văn bản quy chế trường đã có sẵn ở định dạng PDF/Word công khai. Công nghệ RAG và LLM hiện tại giải quyết bài toán này rất ổn định. |
-| **Viability (Vận hành & Tổ chức)** | Có phù hợp với quy định của trường, chi phí ai chịu? | **Trung bình** | Cần sự đồng thuận của Phòng Đào tạo/CTSV về việc cung cấp kho biểu mẫu chuẩn và xác nhận tính pháp lý của nội dung tư vấn. |
+| **Value (Giá trị)** | Sinh viên và nhà trường có thật sự cần và dùng không? | **Thấp** | 100% sinh viên được hỏi (qua phỏng vấn Mom Test và khảo sát 12 bạn) đều xác nhận từng gặp ức chế khi làm thủ tục; cán bộ một cửa luôn trong tình trạng quá tải vào các đợt cao điểm. |
+| **Usability (Khả dụng)** | Sinh viên có dùng được và hiểu được câu trả lời của AI không? | **Thấp** | Giao diện hỏi đáp ngôn ngữ tự nhiên cực kỳ thân thiện; đầu ra là Checklist giấy tờ rõ ràng, ngắn gọn kèm link tải form trực tiếp thay vì bắt sinh viên tự bơi trong file PDF dài 30 trang. |
+| **Feasibility (Khả thi kỹ thuật)** | Có đủ dữ liệu, công cụ và kỹ năng để làm không? | **Thấp – TB** | Văn bản quy chế trường đã có sẵn ở định dạng PDF/Word công khai. Công nghệ RAG ngữ nghĩa kết hợp Rule-based hoàn toàn nằm trong tầm tay kỹ thuật của nhóm. |
+| **Viability (Vận hành & Tổ chức)** | Có phù hợp với quy định của trường, chi phí ai chịu? | **Trung bình** | Cần sự đồng thuận của Phòng Đào tạo/CTSV về việc cung cấp đầu mối cập nhật biểu mẫu định kỳ và bảo đảm tính bảo mật thông tin sinh viên. |
 
 ---
 
@@ -380,10 +409,14 @@ flowchart TD
 - **Dữ liệu nạp vào:** 5 quy trình chuẩn tương ứng được kiểm duyệt bởi trợ lý đào tạo khoa + 5 file biểu mẫu `.docx` mới nhất.
 - **Cách đo lường pilot:** Theo dõi 50 lượt sinh viên tra cứu thực tế; đo tỷ lệ sinh viên tự chuẩn bị đúng hồ sơ nộp lên khoa trong tuần pilot.
 
-**Ngưỡng dừng (Stopping Threshold):**
-- *Ngưỡng 1:* Nếu trong 2 tuần pilot có trên **10% sinh viên bị trả về** do AI liệt kê thiếu giấy tờ bắt buộc $\rightarrow$ **Dừng pilot ngay lập tức** để kiểm tra lại toàn bộ quy trình RAG và prompt.
-- *Ngưỡng 2:* Nếu tỷ lệ sinh viên đánh giá câu trả lời "Không hữu ích" vượt quá **25%** $\rightarrow$ Quay về phương án **No AI** (biên tập lại trang web tĩnh cẩm nang thủ tục một cửa dạng checklist đơn giản).
-- *Ngưỡng 3:* Nếu Phòng Đào tạo/Khoa từ chối cung cấp đầu mối xác nhận biểu mẫu chính thức $\rightarrow$ **No-Go**, dừng dự án.
+**Nếu Not Yet — cần kiểm chứng gì trước:** (Phương án dự phòng) Phỏng vấn 1–2 cán bộ phòng đào tạo/CTSV về khả năng cập nhật biểu mẫu định kỳ; khảo sát thêm 20 sinh viên về mức độ tin cậy khi dùng công cụ có trích dẫn điều khoản.
+
+**Nếu No-Go — nên làm gì thay AI:** Cải thiện cấu trúc cây thư mục trên cổng portal trường + biên tập lại cẩm nang FAQ tĩnh dạng checklist PDF chuẩn + cập nhật đúng kho biểu mẫu mới nhất; phân công cán bộ trực hotline giải đáp.
+
+**Ngưỡng dừng định lượng (Stopping Threshold):**
+- *Ngưỡng 1:* Nếu sau 2 tuần pilot mà tỷ lệ hồ sơ sinh viên nộp bị trả lại vẫn **$> 20\%$** (so với baseline 40%) $\rightarrow$ Dừng pilot ngay lập tức để rà soát lại toàn bộ checklist và quy trình.
+- *Ngưỡng 2:* Nếu AI trích dẫn sai số hiệu điều khoản quy chế (Hallucination) vượt quá **$> 5\%$** trên tập câu hỏi thử nghiệm $\rightarrow$ Dừng ngay lập tức để cập nhật và làm sạch lại cơ sở tri thức (Knowledge Base).
+- *Ngưỡng 3:* Nếu tỷ lệ câu hỏi phải chuyển hướng Fallback vượt quá **$> 50\%$** hoặc tỷ lệ sinh viên đánh giá câu trả lời "Không hữu ích" vượt quá **$> 25\%$** $\rightarrow$ Dừng dự án AI, quay về phương án **No AI** (cải thiện trang web tĩnh cẩm nang thủ tục một cửa dạng checklist đơn giản kết hợp bàn tiếp dân trực tiếp).
 
 ---
 
